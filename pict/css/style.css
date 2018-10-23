@@ -1,0 +1,30 @@
+
+.memorie{
+  width: 784px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background:teal;
+  position: absolute;
+}
+.memory-card {
+  width: 784px;
+  height: 500px;
+  margin: 5px;
+  transform-style:preserve-3d;
+  transition: 0.3s;
+  position: absolute;
+}
+
+img:active{
+	transform: scale(0.97);
+}
+button{
+	width:150px;
+	height:150px;
+	position: absolute;
+	font-size:50px;
+	margin:4px;
+}
+
